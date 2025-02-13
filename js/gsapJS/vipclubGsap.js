@@ -9,7 +9,7 @@ const vipclub_gsap = gsap.timeline({
   },
 });
 
-vipclub_gsap
+export const vipclubGsap = vipclub_gsap
   .fromTo(
     ".sc2-vipclub",
     { filter: "brightness(100%)" },

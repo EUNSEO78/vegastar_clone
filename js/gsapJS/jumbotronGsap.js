@@ -1,5 +1,5 @@
 const start_show = gsap.timeline();
-start_show
+export const jumbotronGsap = start_show
   .fromTo(
     ".start_txt > p",
     { y: 60, opacity: 0 },

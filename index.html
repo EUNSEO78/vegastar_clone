@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/sc1-jumbotron.css" />
     <link rel="stylesheet" href="css/sc2-vipclub.css" />
+    <link rel="stylesheet" href="css/sc4-benefit.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -15,14 +16,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
-    <script src="./js/gsapJS/jumbotronGsap.js" defer></script>
-    <script src="js/gsapJS/vipclubGsap.js" defer></script>
+    <script src="js/headerChange.js" defer></script>
+    <script type="module" src="js/index.js" defer></script>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <div class="language">
           <i class="fa-solid fa-globe"></i>
           <ul class="language_links">
@@ -69,9 +75,30 @@
         </div>
       </section>
 
-      <section class="sc3-places">
-        <div class="places_wrap"></div>
+      <section class="sc4-benefit">
+        <div class="benefit_wrap">
+          <b class="benefit">BENEFIT</b>
+          <span class="benefitInfo"
+            >베가스타 회원에게 제공되는 특별한 혜택을 만나보세요.</span
+          >
+          <div class="benefitCards">
+            <article class="card first">
+              <p>BENEFIT 01</p>
+              <span>차량의전서비스</span>
+            </article>
+            <article class="card second">
+              <p>BENEFIT 02</p>
+              <span>객실예약서비스</span>
+            </article>
+            <article class="card third">
+              <p>BENEFIT 03</p>
+              <span>항공권예약서비스</span>
+            </article>
+          </div>
+        </div>
       </section>
+
+      <div style="width: 100vw; height: 100vh"></div>
     </main>
   </body>
 </html>
