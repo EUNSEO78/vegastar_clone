@@ -26,7 +26,7 @@ export const vipclubGsap = vipclub_gsap
     { y: 0, opacity: 1, duration: 0.7, stagger: 0.2 }
   )
   .fromTo(
-    ".viewmore_btn",
+    ".vipclub_btn",
     { y: 60, opacity: 0 },
     { y: 0, opacity: 1, duration: 0.7 }
   );
