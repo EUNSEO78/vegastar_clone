@@ -9,6 +9,7 @@ export const headerChange = window.addEventListener("scroll", () => {
   const topbarTop = document.querySelector("#top");
   const topbarBottom = document.querySelector("#bottom");
   const target = document.querySelector(".sc4-benefit");
+
   const scrollY = window.scrollY;
   const targetClientRect = target.getBoundingClientRect();
   const top = scrollY + targetClientRect.top;

@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-export const tours_gsap = gsap.timeline({
+const tours_gsap = gsap.timeline({
   scrollTrigger: {
     trigger: ".sc5-tours",
     start: "top top",
@@ -9,7 +9,7 @@ export const tours_gsap = gsap.timeline({
   },
 });
 
-tours_gsap
+export const toursGsap = tours_gsap
   .fromTo(
     ".tours > p",
     { x: -20, opacity: 0 },

@@ -11,7 +11,7 @@ const vipclub_gsap = gsap.timeline({
 
 export const vipclubGsap = vipclub_gsap
   .fromTo(
-    ".sc2-vipclub",
+    ".sc2-vipclub::after",
     { filter: "brightness(100%)" },
     { filter: "brightness(50%)", duration: 1 }
   )

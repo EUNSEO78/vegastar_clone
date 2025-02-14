@@ -1,17 +1,17 @@
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "horizontal",
-  slidesPerView: 2.8,
-  loop: true,
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 10,
+  slidesPerView: 6,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
 
-  // Navigation arrows
-  navigation: {
-    nextEl: ".navigation_container .swiper-button-next",
-    prevEl: ".navigation_container .swiper-button-prev",
+var swiper2 = new Swiper(".mySwiper2", {
+  spaceBetween: 10,
+  thumbs: {
+    swiper: swiper,
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".scrollbar_container .swiper-scrollbar",
+  autoplay: {
+    delay: 3000, // 3초마다 자동 전환
+    disableOnInteraction: false,
   },
 });

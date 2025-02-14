@@ -48,10 +48,16 @@ nav {
 }
 
 .language_links {
+  width: 150px;
   display: flex;
 }
 .language_links > li {
   padding: 0px 6px;
+}
+.language_links > li:hover {
+  color: gold;
+  text-decoration: underline;
+  transition: 2s;
 }
 .another_lan {
   border-left: 1px solid white;
@@ -62,8 +68,10 @@ nav {
 }
 
 .header_logo {
-  width: 165px;
   font-size: 20px;
+  position: fixed;
+  top: 35px;
+  left: 47%;
 }
 
 .topbar {

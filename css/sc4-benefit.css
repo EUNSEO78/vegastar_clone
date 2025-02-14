@@ -33,16 +33,17 @@
 }
 
 .card {
-  width: 270px;
-  height: 340px;
+  width: 403px;
+  height: 510px;
   border-radius: 20px;
   padding: 25px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .first {
   background-image: url("../img/first_card.jpg");
   background-size: cover;
+  filter: brightness(100%);
 }
 .second {
   background-image: url("../img/second_card.jpg");
@@ -58,6 +59,18 @@
 }
 
 .card > span {
-  font-size: larger;
+  font-size: 30px;
   font-weight: 800;
+}
+
+.textBlur {
+  display: none;
+  font-size: 17px;
+  padding-top: 240px;
+}
+
+.card:hover {
+  .textBlur {
+    display: block;
+  }
 }
