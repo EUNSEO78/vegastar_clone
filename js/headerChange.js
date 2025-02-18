@@ -6,8 +6,8 @@
 export const headerChange = window.addEventListener("scroll", () => {
   const header = document.querySelector("header");
   const nav = document.querySelector("nav");
-  const topbarTop = document.querySelector("#top");
-  const topbarBottom = document.querySelector("#bottom");
+  const topbarTop = document.querySelector("#topbar-top");
+  const topbarBottom = document.querySelector("#topbar-bottom");
   const target = document.querySelector(".sc4-benefit");
 
   const scrollY = window.scrollY;
@@ -15,7 +15,7 @@ export const headerChange = window.addEventListener("scroll", () => {
   const top = scrollY + targetClientRect.top;
   const bottom = scrollY + targetClientRect.bottom;
 
-  if (scrollY >= top && scrollY <= bottom) {
+  if (scrollY >= top - 100 && scrollY <= bottom) {
     nav.style.color = "black";
     header.style.borderBottom = "1px solid black";
     topbarTop.style.backgroundColor = "black";

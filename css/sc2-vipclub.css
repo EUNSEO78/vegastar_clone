@@ -26,22 +26,21 @@
 }
 
 .vipclub_title {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .vipclub_title > b {
-  font-size: 65px;
+  font-size: 75px;
 }
 
 .vipclub_contents {
   display: flex;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .vipclub_contents > div {
-  width: 363px;
+  width: 405px;
   height: 230px;
-  border: 1px solid white;
 
   display: flex;
   justify-content: center;
@@ -49,6 +48,11 @@
 
   text-align: center;
   line-height: 40px;
+}
+
+.vipclub_contents-center {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }
 
 .vipclub_btn {

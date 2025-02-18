@@ -16,4 +16,4 @@ export const toursGsap = tours_gsap
     { x: 0, opacity: 1, duration: 0.5 }
   )
   .fromTo(".benefit_btn", { x: -20, opacity: 0 }, { x: 0, opacity: 1 }, "<")
-  .fromTo(".swiper", { opacity: 0 }, { opacity: 1, duration: 0.5 });
+  .fromTo(".tours_swiper", { opacity: 0 }, { opacity: 1, duration: 0.5 });

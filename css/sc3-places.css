@@ -1,0 +1,111 @@
+/* html,
+body {
+  position: relative;
+  height: 100%;
+} */
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.sc3-places {
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+.places_swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.places_swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.places_swiper2 {
+  height: 100%;
+  width: 100%;
+}
+
+.places_swiper {
+  width: 100%;
+  max-width: 80%;
+  height: 200px;
+
+  margin: 10px;
+
+  box-sizing: border-box;
+
+  /* 고정시키기 위한 추가 스타일 */
+  position: relative;
+  top: -55%;
+  left: 3%;
+  z-index: 100;
+}
+
+.places_swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+/* .places_swiper {
+  height: 20%;
+  width: 80%;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+} */
+
+.places_swiper .places_swiper-slide {
+  opacity: 1;
+  filter: grayscale(100%);
+}
+
+.places_swiper .swiper-slide-thumb-active {
+  opacity: 1;
+  filter: grayscale(0);
+  /* transform: scale(2); */
+}
+
+/* .places_swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.places_swiper > .swiper-wrapper > .places_swiper-slide > img {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 157px;
+  height: 157px;
+}
+
+.places_swiper-slide > div {
+  color: white;
+  text-align: center;
+}
+
+.places_btn {
+  position: absolute;
+  bottom: 10%;
+  left: 47%;
+  z-index: 999;
+}

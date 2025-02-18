@@ -1,7 +1,16 @@
-해야할 것들
+🤍 추후에 해야할 것들 🤍
+
 - 웹 개발 스크롤 조금만 내려도 페이지 맞추기 (원페이지 스크롤)
+    Mousewheel control (Swiper)
+
 - 바 누르면 바뀌는 거
+
 - 문제의 section3...
+
 - click이벤트 -> 누르면 open(url)
-- headerChange.js 어제는 나왔는데 이상해짐 ...
+
 - benefit -> hover 
+
+- 마지막으로 코드 추리기
+
+- 반응형

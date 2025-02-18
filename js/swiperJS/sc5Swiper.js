@@ -1,4 +1,4 @@
-export const sc3Swiper = new Swiper(".swiper", {
+export const sc5Swiper = new Swiper(".tours_swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 2.8,

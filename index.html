@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/sc1-jumbotron.css" />
     <link rel="stylesheet" href="css/sc2-vipclub.css" />
+    <link rel="stylesheet" href="css/sc3-places.css" />
     <link rel="stylesheet" href="css/sc4-benefit.css" />
     <link rel="stylesheet" href="css/sc5-tours.css" />
     <link rel="stylesheet" href="css/sc6-contact.css" />
@@ -24,9 +25,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="js/index.js" defer></script>
   </head>
   <body>
@@ -43,8 +45,8 @@
         </div>
         <div class="header_logo">VEGA STAR</div>
         <div class="topbar">
-          <div id="top"></div>
-          <div id="bottom"></div>
+          <div id="topbar-top"></div>
+          <div id="topbar-bottom"></div>
         </div>
       </nav>
     </header>
@@ -71,10 +73,82 @@
           <div class="vipclub_title">VEGASTAR <b>VIP CLUB</b></div>
           <div class="vipclub_contents">
             <div>핵심지역에서 누리는 <br />최고의 접근성</div>
-            <div>럭셔리한 분위기에서 즐기는 <br />프리미엄 서비스</div>
+            <div class="vipclub_contents-center">
+              럭셔리한 분위기에서 즐기는 <br />프리미엄 서비스
+            </div>
             <div>정직하고 <br />신뢰할 수 있는 서비스</div>
           </div>
           <div class="viewmore_btn vipclub_btn"><button>view more</button></div>
+        </div>
+      </section>
+
+      <section class="sc3-places">
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper mySwiper2 places_swiper2"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide places_swiper-slide">
+              <img src="https://vegastarvip.com/asset/img/main/s3_bg_01.jpg" />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img src="https://vegastarvip.com/asset/img/main/s3_bg_02.jpg" />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img src="https://vegastarvip.com/asset/img/main/s3_bg_03.jpg" />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img src="https://vegastarvip.com/asset/img/main/s3_bg_04.jpg" />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img src="https://vegastarvip.com/asset/img/main/s3_bg_05.jpg" />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img src="https://vegastarvip.com/asset/img/main/s3_bg_06.jpg" />
+            </div>
+          </div>
+        </div>
+        <!-- 아래  -->
+        <div thumbsSlider="" class="swiper mySwiper places_swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide places_swiper-slide">
+              <img
+                src="https://vegastarvip.com/asset/img/main/s3_thumb_01.jpg"
+              />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img
+                src="https://vegastarvip.com/asset/img/main/s3_thumb_02.jpg"
+              />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img
+                src="https://vegastarvip.com/asset/img/main/s3_thumb_03.jpg"
+              />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img
+                src="https://vegastarvip.com/asset/img/main/s3_thumb_04.jpg"
+              />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img
+                src="https://vegastarvip.com/asset/img/main/s3_thumb_05.jpg"
+              />
+            </div>
+            <div class="swiper-slide places_swiper-slide">
+              <img
+                src="https://vegastarvip.com/asset/img/main/s3_thumb_06.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="viewmore_btn vipclub_btn places_btn">
+          <button>view more</button>
         </div>
       </section>
 
@@ -126,72 +200,72 @@
               <button>view more</button>
             </div>
           </div>
-          <div class="swiper_container">
-            <div class="swiper">
+          <div class="swiper_container tours_swiper_container">
+            <div class="swiper tours_swiper">
               <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper tours_swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/f0c9ccb9717cfe854f4eac2940da9fb9_UOy3t4nV_9e8766d8e4e6ce2d14fdb4dc205babdb25c0cc5f.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_JFLdy567_0fb735ba9e9cf6e9cbd96fab3e7adef30724210c.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_Vz73CmNE_69f46f8cbeacdf49feef14620dd4bfce20a98670.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_7H2ibnUg_f7f810d1f5a0b87008bccb3d0ce6f5eec43cc587.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_siMGXJec_589ef9012dea118f80eda21fd5baf04556bc2627.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_LNoXVsd5_f2cb33320ef2580a1e48814c518c0d13c5191873.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_Gs9ot86j_65543db330ac9eae25682727b97dbab1f7b60371.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_cDaq3A5d_a08cbcaa67e4a637ec6c0f69c84bfef40f436dee.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_1lY2FRuk_3bfc1c7c8f85ed92d0d1900232d5f36edec0cd6c.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_G2vzZkxt_804d62bec810377ecd212440d94d04873544fe84.png"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide tours_swiper-slide">
                   <img
                     src="https://vegastarvip.com/storage/gallery/796b24cf2e6c6106e9ebf3a67b693cff_OU76WRHe_546824af4f232972604393e69d2b1b26a89104f5.png"
                     alt=""
@@ -201,13 +275,13 @@
               </div>
             </div>
 
-            <div class="scrollbar_container">
-              <div class="swiper-scrollbar"></div>
+            <div class="scrollbar_container tours_scrollbar_container">
+              <div class="swiper-scrollbar tours_swiper-scrollbar"></div>
             </div>
 
-            <div class="navigation_container">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+            <div class="navigation_container tours_navigation_container">
+              <div class="swiper-button-prev tours_swiper-button-prev"></div>
+              <div class="swiper-button-next tours_swiper-button-next"></div>
             </div>
           </div>
         </div>
